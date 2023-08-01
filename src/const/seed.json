@@ -1,0 +1,2122 @@
+[
+  {
+    "transporter": [
+      {
+        "id": "7a337865-5691-4714-9c43-6d268ffd1e18",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T16:57:47.056Z",
+        "updated_at": "2023-07-31T20:01:48.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4298951-6168-4994-b60e-6b3322b9d9cd",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T10:12:03.579Z",
+        "updated_at": "2023-07-31T15:21:50.054Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b153de7f-3ca0-4d74-a8d1-be3a9cb565e0",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-08-01T04:35:02.116Z",
+        "updated_at": "2023-08-01T04:09:14.505Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb545a67-51ea-4b97-86ff-9276eb7e0522",
+        "service_info": "International Freight",
+        "created_at": "2023-07-31T11:41:39.137Z",
+        "updated_at": "2023-08-01T03:33:55.971Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1abe3682-b434-438e-9824-18383a5fe42b",
+        "service_info": "Local Courier",
+        "created_at": "2023-07-31T19:34:13.644Z",
+        "updated_at": "2023-07-31T11:42:19.148Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "3a14639c-8a71-436a-bdc7-5d9b44449dc1",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-07-31T19:18:22.397Z",
+        "updated_at": "2023-07-31T13:55:18.276Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2371a44f-e49c-4b17-bbf4-b7e7f3a177ca",
+        "supply_info": "Electronics",
+        "created_at": "2023-07-31T14:02:09.423Z",
+        "updated_at": "2023-07-31T17:07:11.011Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b083a78-99a2-41ac-88af-3ff799193d79",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T12:04:40.190Z",
+        "updated_at": "2023-07-31T20:38:53.657Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18cf7507-3a08-44da-bb95-8b55d6834c45",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-08-01T06:54:33.252Z",
+        "updated_at": "2023-07-31T15:32:20.816Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fac8fd4b-3861-4ebb-a137-94e54694d447",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-07-31T21:26:33.399Z",
+        "updated_at": "2023-08-01T01:59:14.130Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "ac5f5c82-09a5-47e9-8c90-bdcd64017695",
+        "vehicle_info": "Sedan",
+        "trip_cost": 41718,
+        "reminder": "Oil Change",
+        "position": "Front",
+        "created_at": "2023-07-31T09:42:50.756Z",
+        "updated_at": "2023-07-31T20:59:47.794Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ffe59d40-6e83-46dd-87a1-67282f40911a",
+        "vehicle_info": "SUV",
+        "trip_cost": 39520,
+        "reminder": "Tire Rotation",
+        "position": "Rear",
+        "created_at": "2023-07-31T20:34:21.643Z",
+        "updated_at": "2023-07-31T19:49:11.346Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61998c27-69a6-424b-b338-ac3ba4964dc0",
+        "vehicle_info": "Truck",
+        "trip_cost": 7766,
+        "reminder": "Brake Inspection",
+        "position": "Left",
+        "created_at": "2023-07-31T16:50:41.263Z",
+        "updated_at": "2023-08-01T04:52:32.320Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "94ab346c-8698-48d6-a555-86b4ae69491c",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 9010,
+        "reminder": "Battery Replacement",
+        "position": "Right",
+        "created_at": "2023-07-31T13:55:54.019Z",
+        "updated_at": "2023-07-31T19:50:48.333Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "884609ea-1228-4908-b678-8d01879f1463",
+        "vehicle_info": "Electric Scooter",
+        "trip_cost": 10496,
+        "reminder": "Air Filter Replacement",
+        "position": "Center",
+        "created_at": "2023-07-31T09:32:04.845Z",
+        "updated_at": "2023-08-01T05:35:10.447Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "c2a67bd2-cbff-43a6-9da1-3e8b6cc4ea52",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-08-01T04:05:29.190Z",
+        "updated_at": "2023-07-31T19:37:12.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43a2e7dc-8436-42ec-9db9-6a692463cae7",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-08-01T09:10:43.166Z",
+        "updated_at": "2023-07-31T09:59:50.934Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "889204fc-f6a7-4759-a2e7-1d280b09736c",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-07-31T21:20:59.004Z",
+        "updated_at": "2023-08-01T03:25:03.726Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85d8be52-5ef2-4ef4-8663-f64128993596",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-07-31T18:22:10.107Z",
+        "updated_at": "2023-07-31T13:14:29.583Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f3bd8ed-a51b-4b89-b41d-122af3354bbd",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T09:47:02.045Z",
+        "updated_at": "2023-07-31T17:09:49.061Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "1ed57cf5-b60d-4b60-9061-8eab4b0cf4d9",
+        "created_at": "2023-07-31T12:34:11.271Z",
+        "updated_at": "2023-07-31T11:56:41.837Z",
+        "transporter_id": "7a337865-5691-4714-9c43-6d268ffd1e18",
+        "vehicle_id": "94ab346c-8698-48d6-a555-86b4ae69491c"
+      },
+      {
+        "id": "f31ae024-e637-4865-80b3-077b07b90f03",
+        "created_at": "2023-08-01T00:20:43.566Z",
+        "updated_at": "2023-07-31T23:18:30.639Z",
+        "transporter_id": "b153de7f-3ca0-4d74-a8d1-be3a9cb565e0",
+        "vehicle_id": "ffe59d40-6e83-46dd-87a1-67282f40911a"
+      },
+      {
+        "id": "cff1cc83-1b40-458d-9058-7a8aa4203d88",
+        "created_at": "2023-08-01T04:54:42.451Z",
+        "updated_at": "2023-07-31T09:52:43.399Z",
+        "transporter_id": "1abe3682-b434-438e-9824-18383a5fe42b",
+        "vehicle_id": "61998c27-69a6-424b-b338-ac3ba4964dc0"
+      },
+      {
+        "id": "f84b8ef6-5f4e-4107-9044-58fd3556fb78",
+        "created_at": "2023-07-31T14:06:43.609Z",
+        "updated_at": "2023-07-31T22:45:21.134Z",
+        "transporter_id": "7a337865-5691-4714-9c43-6d268ffd1e18",
+        "vehicle_id": "884609ea-1228-4908-b678-8d01879f1463"
+      },
+      {
+        "id": "62429107-04af-4ffd-96fb-36f6d8aab270",
+        "created_at": "2023-08-01T01:48:49.515Z",
+        "updated_at": "2023-08-01T00:48:31.790Z",
+        "transporter_id": "bb545a67-51ea-4b97-86ff-9276eb7e0522",
+        "vehicle_id": "884609ea-1228-4908-b678-8d01879f1463"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "8d16c580-5ab8-42da-9ad6-b62cbbb575c6",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T15:36:12.026Z",
+        "updated_at": "2023-08-01T01:40:21.159Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04188d02-c111-47de-84f2-f3173498ca61",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T17:04:08.052Z",
+        "updated_at": "2023-08-01T00:41:53.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6b1a00d-706c-41b0-85fc-91664a9cc90e",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-07-31T10:35:26.992Z",
+        "updated_at": "2023-07-31T11:55:56.049Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c471233-1cc0-49ae-88e2-96b16cc83f17",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T04:37:34.359Z",
+        "updated_at": "2023-08-01T06:16:35.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "342e4640-0654-4d48-94ba-0681c0c847d3",
+        "service_info": "Local Courier",
+        "created_at": "2023-07-31T19:41:55.572Z",
+        "updated_at": "2023-07-31T21:04:16.299Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "00e85e04-51b0-432e-b2de-5a1c20bcc19b",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-07-31T21:35:49.662Z",
+        "updated_at": "2023-08-01T08:20:44.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e19dcbc7-d440-417a-8078-8388224c40eb",
+        "supply_info": "Electronics",
+        "created_at": "2023-07-31T16:16:38.189Z",
+        "updated_at": "2023-08-01T05:03:34.164Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "284873b4-2623-4830-92e5-8717c5b54dfc",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T15:50:41.133Z",
+        "updated_at": "2023-07-31T19:07:40.093Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08fff12f-1935-4185-ad55-d54e89e7d5c3",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-07-31T18:47:58.905Z",
+        "updated_at": "2023-08-01T00:32:07.168Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fc1c552-44c9-43e0-8ef5-a3f22dea78b7",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-07-31T21:36:29.471Z",
+        "updated_at": "2023-07-31T17:26:40.822Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "6f0e9071-42e6-4093-8f83-314757c1714d",
+        "vehicle_info": "Sedan",
+        "trip_cost": 66897,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-07-31T13:56:15.269Z",
+        "updated_at": "2023-07-31T21:12:54.490Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e750c09-fa38-4a66-9b9e-09a475754956",
+        "vehicle_info": "SUV",
+        "trip_cost": 13843,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-07-31T18:22:53.420Z",
+        "updated_at": "2023-08-01T04:38:07.769Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c491b545-50f1-4fad-bb3d-2bb44b1ea230",
+        "vehicle_info": "Truck",
+        "trip_cost": 39531,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T23:00:46.074Z",
+        "updated_at": "2023-07-31T17:18:17.090Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4139d955-8678-435e-9a7d-0a10359f1347",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 72558,
+        "reminder": "Air Filter Replacement",
+        "position": "Trunk",
+        "created_at": "2023-08-01T06:37:55.340Z",
+        "updated_at": "2023-07-31T20:38:55.981Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "27646b1b-b6ae-4fe8-83da-ce78abc8a2f8",
+        "vehicle_info": "Van",
+        "trip_cost": 57278,
+        "reminder": "Battery Check",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T12:36:32.051Z",
+        "updated_at": "2023-08-01T06:21:32.463Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "d36d6077-7cfd-49ea-9728-5759ffa66939",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-08-01T07:18:15.445Z",
+        "updated_at": "2023-07-31T15:26:41.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f0c7336-6ca3-4fee-8b46-7dd4c3681cbd",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T11:35:23.449Z",
+        "updated_at": "2023-07-31T22:36:54.109Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "346ae04c-da64-4ae6-b206-ef91882b860d",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-07-31T18:50:50.120Z",
+        "updated_at": "2023-08-01T06:01:34.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b89b4e5d-22ed-4ac6-95b8-660f52fe97d5",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-07-31T20:22:18.343Z",
+        "updated_at": "2023-07-31T15:37:26.391Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ade1edf5-b664-4803-9075-0feb92fe8f52",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T11:59:44.404Z",
+        "updated_at": "2023-08-01T00:30:29.882Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "c2dc9233-70e9-437a-8281-2df740dff943",
+        "created_at": "2023-08-01T06:24:48.980Z",
+        "updated_at": "2023-07-31T17:41:46.742Z",
+        "transporter_id": "342e4640-0654-4d48-94ba-0681c0c847d3",
+        "vehicle_id": "6f0e9071-42e6-4093-8f83-314757c1714d"
+      },
+      {
+        "id": "623a840f-0149-48a2-bb6b-9633e8485cb5",
+        "created_at": "2023-08-01T00:49:22.225Z",
+        "updated_at": "2023-07-31T12:59:26.930Z",
+        "transporter_id": "04188d02-c111-47de-84f2-f3173498ca61",
+        "vehicle_id": "27646b1b-b6ae-4fe8-83da-ce78abc8a2f8"
+      },
+      {
+        "id": "f57a649c-e8f7-48a0-84be-314e54ea807e",
+        "created_at": "2023-07-31T11:39:18.122Z",
+        "updated_at": "2023-07-31T15:13:30.120Z",
+        "transporter_id": "d6b1a00d-706c-41b0-85fc-91664a9cc90e",
+        "vehicle_id": "27646b1b-b6ae-4fe8-83da-ce78abc8a2f8"
+      },
+      {
+        "id": "1a2d99ab-adcb-404f-8d33-1094931fd782",
+        "created_at": "2023-08-01T02:31:40.168Z",
+        "updated_at": "2023-08-01T02:17:16.204Z",
+        "transporter_id": "d6b1a00d-706c-41b0-85fc-91664a9cc90e",
+        "vehicle_id": "27646b1b-b6ae-4fe8-83da-ce78abc8a2f8"
+      },
+      {
+        "id": "844d688f-4c16-4918-910c-d469f9c052d1",
+        "created_at": "2023-08-01T05:58:30.111Z",
+        "updated_at": "2023-07-31T19:02:46.193Z",
+        "transporter_id": "d6b1a00d-706c-41b0-85fc-91664a9cc90e",
+        "vehicle_id": "27646b1b-b6ae-4fe8-83da-ce78abc8a2f8"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "8470e4e4-2269-4e39-a55b-d50820d8432c",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T13:11:14.446Z",
+        "updated_at": "2023-07-31T17:33:58.165Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36c05848-9ff2-44cc-96b6-c2d48a4022d2",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T18:38:03.607Z",
+        "updated_at": "2023-08-01T07:17:50.054Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0df2699f-13ac-4395-9daf-1a89c8eda11b",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-08-01T02:56:07.015Z",
+        "updated_at": "2023-07-31T10:23:06.762Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8c36703-fb6b-43ec-a472-9b7c5203a679",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T07:48:55.388Z",
+        "updated_at": "2023-08-01T08:52:33.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63736712-69b6-4fc3-87ab-839b1f5ea7e4",
+        "service_info": "Local Courier",
+        "created_at": "2023-07-31T22:51:33.463Z",
+        "updated_at": "2023-08-01T02:41:23.095Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "07551443-bd38-41f2-9ee4-ef8d4de5bfe1",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-08-01T00:14:08.624Z",
+        "updated_at": "2023-08-01T03:57:29.632Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b9f49ae-6128-4df9-85dc-0c5381547035",
+        "supply_info": "Electronics",
+        "created_at": "2023-08-01T02:46:02.734Z",
+        "updated_at": "2023-07-31T09:47:02.938Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ff51197-f160-4f7a-ac64-8a82fc989d96",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T22:03:53.197Z",
+        "updated_at": "2023-07-31T16:53:06.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d2e8ec7-739f-4087-85d8-13feff14836c",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-08-01T08:06:15.057Z",
+        "updated_at": "2023-07-31T19:10:24.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb864fed-00ea-4adc-91b9-e47952922f4b",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-07-31T12:34:48.493Z",
+        "updated_at": "2023-07-31T22:58:45.831Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "e618ec5d-6341-4bfb-8e22-7783ca45e35a",
+        "vehicle_info": "Sedan",
+        "trip_cost": 16937,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-07-31T13:08:21.553Z",
+        "updated_at": "2023-08-01T08:55:06.697Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "735e5e69-4add-4c38-b694-d0e76d87b1b0",
+        "vehicle_info": "SUV",
+        "trip_cost": 78850,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-08-01T03:38:12.097Z",
+        "updated_at": "2023-07-31T22:58:39.426Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c99f7bec-242c-4270-9140-dce52947a7e2",
+        "vehicle_info": "Truck",
+        "trip_cost": 40294,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T23:35:45.038Z",
+        "updated_at": "2023-07-31T21:18:12.838Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "584fb4a0-7acc-48b4-9e81-ce3ad41bd41c",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 82356,
+        "reminder": "Air Filter Replacement",
+        "position": "Trunk",
+        "created_at": "2023-08-01T08:50:41.297Z",
+        "updated_at": "2023-07-31T19:52:11.999Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4efb81ab-4c5d-4812-9520-6f78f2710184",
+        "vehicle_info": "Van",
+        "trip_cost": 18172,
+        "reminder": "Battery Check",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T18:55:12.836Z",
+        "updated_at": "2023-07-31T18:15:50.370Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "15912f22-bd8d-47f3-bf82-e3f1264c0eea",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-08-01T04:54:08.161Z",
+        "updated_at": "2023-08-01T07:04:15.519Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78677582-091d-4ecd-adf7-3f8a00d9e676",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T17:40:49.306Z",
+        "updated_at": "2023-08-01T09:06:15.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c308273c-c96d-42a9-8087-44755e0a6bf3",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-08-01T07:59:20.578Z",
+        "updated_at": "2023-08-01T00:28:31.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e05e8be8-bb6d-42db-98e1-fe2769b37fb8",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-08-01T06:40:19.930Z",
+        "updated_at": "2023-07-31T10:29:31.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02881be5-8540-43bc-b636-7e2869a26ac8",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T19:02:34.641Z",
+        "updated_at": "2023-08-01T01:07:06.494Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "b9031217-df7f-418c-834c-bd1fa0c68654",
+        "created_at": "2023-08-01T06:00:45.165Z",
+        "updated_at": "2023-08-01T02:10:16.452Z",
+        "transporter_id": "63736712-69b6-4fc3-87ab-839b1f5ea7e4",
+        "vehicle_id": "c99f7bec-242c-4270-9140-dce52947a7e2"
+      },
+      {
+        "id": "eaadcacd-d04f-48c2-bcb1-5808a0e03f8c",
+        "created_at": "2023-08-01T02:53:02.064Z",
+        "updated_at": "2023-07-31T09:38:06.591Z",
+        "transporter_id": "0df2699f-13ac-4395-9daf-1a89c8eda11b",
+        "vehicle_id": "4efb81ab-4c5d-4812-9520-6f78f2710184"
+      },
+      {
+        "id": "f3b42771-c6a6-4d38-b661-a0da6cd0b432",
+        "created_at": "2023-07-31T19:12:45.682Z",
+        "updated_at": "2023-08-01T05:47:06.155Z",
+        "transporter_id": "b8c36703-fb6b-43ec-a472-9b7c5203a679",
+        "vehicle_id": "584fb4a0-7acc-48b4-9e81-ce3ad41bd41c"
+      },
+      {
+        "id": "3722c197-7980-4438-b297-e2e17033849e",
+        "created_at": "2023-08-01T02:05:25.416Z",
+        "updated_at": "2023-08-01T00:43:29.138Z",
+        "transporter_id": "0df2699f-13ac-4395-9daf-1a89c8eda11b",
+        "vehicle_id": "4efb81ab-4c5d-4812-9520-6f78f2710184"
+      },
+      {
+        "id": "031e7c71-7d5a-44d2-b429-1709d942b3a6",
+        "created_at": "2023-07-31T11:50:39.328Z",
+        "updated_at": "2023-07-31T18:02:01.584Z",
+        "transporter_id": "8470e4e4-2269-4e39-a55b-d50820d8432c",
+        "vehicle_id": "584fb4a0-7acc-48b4-9e81-ce3ad41bd41c"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "65abda9a-a10a-4b24-a35d-5c5c4091822b",
+        "service_info": "Express delivery",
+        "created_at": "2023-08-01T08:46:49.327Z",
+        "updated_at": "2023-07-31T21:11:47.933Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1ce2729-55bd-4fc6-8732-5d84808dff86",
+        "service_info": "Same-day shipping",
+        "created_at": "2023-08-01T05:35:24.358Z",
+        "updated_at": "2023-07-31T21:02:06.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d776935c-86a4-443c-8892-ff593d86ba58",
+        "service_info": "International logistics",
+        "created_at": "2023-08-01T01:01:39.740Z",
+        "updated_at": "2023-07-31T10:14:07.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92546975-3057-4e3f-8f2d-ea1913fdcb8b",
+        "service_info": "Freight forwarding",
+        "created_at": "2023-07-31T19:32:28.675Z",
+        "updated_at": "2023-07-31T17:13:22.320Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cebf95a-55b5-49eb-aee6-f104128bf590",
+        "service_info": "Customs clearance",
+        "created_at": "2023-07-31T16:21:56.547Z",
+        "updated_at": "2023-08-01T08:21:29.953Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "7666d928-9cde-4635-9020-b10c315c386f",
+        "supply_info": "Raw materials",
+        "created_at": "2023-08-01T09:04:09.272Z",
+        "updated_at": "2023-07-31T10:37:55.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ae004de-a504-47dc-9cbb-d2e6da31a4a1",
+        "supply_info": "Manufactured goods",
+        "created_at": "2023-08-01T00:49:05.083Z",
+        "updated_at": "2023-07-31T23:39:32.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4fe03bc-b117-4b4b-aa4f-0a3be426e84e",
+        "supply_info": "Electronics components",
+        "created_at": "2023-07-31T18:15:10.288Z",
+        "updated_at": "2023-08-01T07:48:56.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dc50a00-29c8-48e8-ba60-fe3889accc98",
+        "supply_info": "Food products",
+        "created_at": "2023-07-31T14:18:29.510Z",
+        "updated_at": "2023-08-01T07:19:23.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8b07d80-cd3a-4419-a353-abba6b14513f",
+        "supply_info": "Automotive parts",
+        "created_at": "2023-07-31T16:06:44.137Z",
+        "updated_at": "2023-08-01T06:03:01.742Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "6bebfa90-aed0-4eee-b682-44e607fa09ec",
+        "vehicle_info": "Sedan",
+        "trip_cost": 54713,
+        "reminder": "Oil change",
+        "position": "Driver seat",
+        "created_at": "2023-07-31T13:50:58.289Z",
+        "updated_at": "2023-07-31T11:17:21.113Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "be6f39f2-c667-40a6-a182-aec65a37f1e4",
+        "vehicle_info": "SUV",
+        "trip_cost": 33320,
+        "reminder": "Tire rotation",
+        "position": "Passenger seat",
+        "created_at": "2023-07-31T21:51:49.461Z",
+        "updated_at": "2023-07-31T18:36:17.056Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "83448e04-dd06-4cef-bc26-edfdbe3c01ec",
+        "vehicle_info": "Truck",
+        "trip_cost": 43368,
+        "reminder": "Brake inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T11:31:13.239Z",
+        "updated_at": "2023-08-01T05:53:01.476Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "172e9641-5b5d-4690-bd48-52c0a41077b3",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 81840,
+        "reminder": "Battery replacement",
+        "position": "Trunk",
+        "created_at": "2023-07-31T14:18:47.968Z",
+        "updated_at": "2023-08-01T03:08:21.826Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6ea394be-3e11-452b-bf8a-f7cc6ddb0c65",
+        "vehicle_info": "Electric scooter",
+        "trip_cost": 55106,
+        "reminder": "Air filter replacement",
+        "position": "Roof rack",
+        "created_at": "2023-07-31T11:44:41.906Z",
+        "updated_at": "2023-07-31T23:17:04.476Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "9ee84d67-66c2-4826-b9ef-75238968150e",
+        "trip_info": "Pickup location",
+        "loading_slip": "Product name",
+        "e_bill": "Invoice number",
+        "created_at": "2023-07-31T22:44:02.758Z",
+        "updated_at": "2023-07-31T14:27:30.061Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "852ad4c2-3a26-4e12-a57b-713a30a8c01a",
+        "trip_info": "Delivery address",
+        "loading_slip": "Quantity loaded",
+        "e_bill": "Payment due date",
+        "created_at": "2023-07-31T13:06:49.256Z",
+        "updated_at": "2023-08-01T03:16:39.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb985456-d4b9-4aa0-aca1-a9417f51d02a",
+        "trip_info": "Estimated arrival time",
+        "loading_slip": "Loading date",
+        "e_bill": "Billing address",
+        "created_at": "2023-07-31T10:01:33.992Z",
+        "updated_at": "2023-08-01T03:42:56.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d538ded-2b39-4001-b1b4-15d953019b8b",
+        "trip_info": "Total distance traveled",
+        "loading_slip": "Origin location",
+        "e_bill": "Tax amount",
+        "created_at": "2023-07-31T16:52:54.451Z",
+        "updated_at": "2023-08-01T06:52:06.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2343432-355f-4b79-a4a5-f7aa3ac7a20a",
+        "trip_info": "Fuel consumption",
+        "loading_slip": "Destination location",
+        "e_bill": "Payment method",
+        "created_at": "2023-07-31T13:04:33.278Z",
+        "updated_at": "2023-07-31T21:21:13.574Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d8b2e745-2158-418a-a1ea-25e437b454c1",
+        "created_at": "2023-07-31T21:24:59.205Z",
+        "updated_at": "2023-08-01T05:24:31.119Z",
+        "transporter_id": "d776935c-86a4-443c-8892-ff593d86ba58",
+        "vehicle_id": "be6f39f2-c667-40a6-a182-aec65a37f1e4"
+      },
+      {
+        "id": "2ea3880b-e03c-4d24-825a-881f899e22b2",
+        "created_at": "2023-07-31T18:31:31.525Z",
+        "updated_at": "2023-07-31T22:23:39.962Z",
+        "transporter_id": "d776935c-86a4-443c-8892-ff593d86ba58",
+        "vehicle_id": "172e9641-5b5d-4690-bd48-52c0a41077b3"
+      },
+      {
+        "id": "0836dbe7-458b-421b-a03c-a173ccc1a39a",
+        "created_at": "2023-07-31T18:40:01.279Z",
+        "updated_at": "2023-07-31T22:27:19.805Z",
+        "transporter_id": "d776935c-86a4-443c-8892-ff593d86ba58",
+        "vehicle_id": "172e9641-5b5d-4690-bd48-52c0a41077b3"
+      },
+      {
+        "id": "8fa85723-9dba-4385-a44c-5126efdc95f2",
+        "created_at": "2023-08-01T05:40:35.074Z",
+        "updated_at": "2023-08-01T09:07:07.302Z",
+        "transporter_id": "a1ce2729-55bd-4fc6-8732-5d84808dff86",
+        "vehicle_id": "83448e04-dd06-4cef-bc26-edfdbe3c01ec"
+      },
+      {
+        "id": "dc6c6903-8a45-495a-adec-2e0b28d5dbb8",
+        "created_at": "2023-07-31T17:09:17.295Z",
+        "updated_at": "2023-07-31T12:42:00.218Z",
+        "transporter_id": "a1ce2729-55bd-4fc6-8732-5d84808dff86",
+        "vehicle_id": "6ea394be-3e11-452b-bf8a-f7cc6ddb0c65"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "0398266a-3ad8-4cb1-8a64-9751b7cb710d",
+        "service_info": "Express Delivery",
+        "created_at": "2023-08-01T04:24:30.238Z",
+        "updated_at": "2023-08-01T04:00:37.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edffbee5-e84b-405c-90df-87ff07476b3f",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T19:37:37.505Z",
+        "updated_at": "2023-08-01T03:55:55.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcf649f3-9217-4a56-9d93-cdfaab703bca",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-07-31T09:20:55.111Z",
+        "updated_at": "2023-07-31T15:34:19.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "025a2e2b-8488-4633-a1d8-44f6a155e780",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T00:58:44.578Z",
+        "updated_at": "2023-08-01T00:54:23.035Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6f9b83d-7b44-47f9-9885-2a34dad65dcd",
+        "service_info": "Local Courier",
+        "created_at": "2023-07-31T12:45:52.134Z",
+        "updated_at": "2023-07-31T22:59:16.834Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "2d2105d4-50ac-4a9b-9ed3-d5642501e37f",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-07-31T15:46:27.669Z",
+        "updated_at": "2023-07-31T15:17:59.767Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff2f1daa-f13a-42f3-899a-2b8f6f9ae640",
+        "supply_info": "Electronics",
+        "created_at": "2023-07-31T22:38:33.148Z",
+        "updated_at": "2023-08-01T00:56:54.050Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83457a8d-3569-40d0-812d-9ba666d24ab4",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T12:02:01.055Z",
+        "updated_at": "2023-07-31T18:09:50.304Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "036e7b34-882d-43ce-87ea-f45f6f2f815d",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-07-31T11:34:25.999Z",
+        "updated_at": "2023-08-01T04:54:24.844Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "780876d0-060b-4fe8-8749-9491b4460309",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-07-31T18:04:47.333Z",
+        "updated_at": "2023-08-01T01:33:00.188Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "1bc407d9-ac7d-4cf6-8718-b1ccee71a5a7",
+        "vehicle_info": "Sedan",
+        "trip_cost": 14573,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-07-31T18:17:39.179Z",
+        "updated_at": "2023-07-31T13:44:59.165Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "12e8b19e-e70f-45cf-ba05-00a710d91715",
+        "vehicle_info": "SUV",
+        "trip_cost": 13589,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-08-01T07:11:34.379Z",
+        "updated_at": "2023-07-31T16:23:13.769Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8eb3007c-c534-4be5-8c4a-b6dee03958b0",
+        "vehicle_info": "Truck",
+        "trip_cost": 49509,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T21:55:12.336Z",
+        "updated_at": "2023-07-31T16:08:50.713Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "74dfaf3a-bfa5-441a-99ba-0e0b9fa2bb13",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 12892,
+        "reminder": "Air Filter Replacement",
+        "position": "Trunk",
+        "created_at": "2023-07-31T22:25:11.303Z",
+        "updated_at": "2023-07-31T14:50:26.922Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f64cc09b-e400-456a-9aa8-035f73caece2",
+        "vehicle_info": "Van",
+        "trip_cost": 31759,
+        "reminder": "Battery Check",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T22:06:30.900Z",
+        "updated_at": "2023-08-01T07:54:06.249Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "340c552c-0e91-4838-8ca0-6664c5ea76a5",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-08-01T07:33:22.892Z",
+        "updated_at": "2023-07-31T19:21:38.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59860bda-c5fc-47b2-bc0a-a3385fdf6b48",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T18:59:06.046Z",
+        "updated_at": "2023-07-31T12:26:43.322Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3de3e378-0a1d-4fea-b7d1-a2b4fc98e65d",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-08-01T08:36:53.251Z",
+        "updated_at": "2023-08-01T02:57:27.286Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47548c68-874a-419e-9736-305de41c25c7",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-07-31T15:49:12.710Z",
+        "updated_at": "2023-07-31T10:02:14.682Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "721fc5f7-af3c-4c50-9bc2-0020d2a8987a",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T14:03:51.977Z",
+        "updated_at": "2023-07-31T11:11:39.357Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d1743a8f-a6ad-452c-ad76-76e50b6f2ee1",
+        "created_at": "2023-08-01T00:52:03.143Z",
+        "updated_at": "2023-07-31T22:02:36.715Z",
+        "transporter_id": "edffbee5-e84b-405c-90df-87ff07476b3f",
+        "vehicle_id": "f64cc09b-e400-456a-9aa8-035f73caece2"
+      },
+      {
+        "id": "8e268a16-6a04-4871-9590-a5f12162d07b",
+        "created_at": "2023-07-31T21:50:10.236Z",
+        "updated_at": "2023-07-31T09:25:59.683Z",
+        "transporter_id": "0398266a-3ad8-4cb1-8a64-9751b7cb710d",
+        "vehicle_id": "8eb3007c-c534-4be5-8c4a-b6dee03958b0"
+      },
+      {
+        "id": "592f22b8-3778-4e13-bcd2-b1ac9f7aa9ec",
+        "created_at": "2023-07-31T20:15:21.699Z",
+        "updated_at": "2023-08-01T04:21:24.573Z",
+        "transporter_id": "0398266a-3ad8-4cb1-8a64-9751b7cb710d",
+        "vehicle_id": "74dfaf3a-bfa5-441a-99ba-0e0b9fa2bb13"
+      },
+      {
+        "id": "33f41980-7d98-4fff-8c6e-bc9b678e792c",
+        "created_at": "2023-08-01T02:48:06.569Z",
+        "updated_at": "2023-07-31T20:40:09.383Z",
+        "transporter_id": "025a2e2b-8488-4633-a1d8-44f6a155e780",
+        "vehicle_id": "74dfaf3a-bfa5-441a-99ba-0e0b9fa2bb13"
+      },
+      {
+        "id": "399c32d7-b8a4-4af5-b1d2-f763f7b801e3",
+        "created_at": "2023-07-31T22:24:17.757Z",
+        "updated_at": "2023-07-31T16:53:16.106Z",
+        "transporter_id": "0398266a-3ad8-4cb1-8a64-9751b7cb710d",
+        "vehicle_id": "74dfaf3a-bfa5-441a-99ba-0e0b9fa2bb13"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "42f76ebf-84fa-4ac1-aa1a-a3fc766d57c8",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T10:37:43.355Z",
+        "updated_at": "2023-08-01T03:42:29.797Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0d08c6d-685f-46bd-b37d-9c853adbe1bf",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T13:30:16.314Z",
+        "updated_at": "2023-07-31T15:35:01.097Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9889cbb-5c1e-452d-b9e0-77136a06b7c2",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-08-01T05:35:26.132Z",
+        "updated_at": "2023-08-01T07:58:33.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e52dc3a1-fe51-4607-9a12-0d09221d993c",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T06:47:55.890Z",
+        "updated_at": "2023-07-31T15:40:53.745Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47e85625-1e3f-45cb-9224-b85031286f84",
+        "service_info": "Local Courier",
+        "created_at": "2023-08-01T07:02:52.646Z",
+        "updated_at": "2023-07-31T22:34:21.758Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "0100d2e7-d771-4c7f-8a0e-4bc64c68d6cc",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-07-31T22:01:31.776Z",
+        "updated_at": "2023-08-01T05:27:47.681Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2718697b-13f5-4bb1-b52d-7967bea44922",
+        "supply_info": "Electronics",
+        "created_at": "2023-07-31T23:08:19.708Z",
+        "updated_at": "2023-08-01T07:36:37.690Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d416f155-0574-4ae8-b2d1-484be51643d3",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T13:00:14.457Z",
+        "updated_at": "2023-08-01T06:19:11.412Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "829a10c8-a942-40f0-9768-8789018bcca9",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-08-01T01:13:05.088Z",
+        "updated_at": "2023-07-31T15:00:09.585Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5336910-6fb4-454a-8a72-0ce87a51d523",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-08-01T01:53:53.451Z",
+        "updated_at": "2023-07-31T19:01:38.487Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "fb841471-9103-41cd-91d8-076bfb243bbd",
+        "vehicle_info": "Sedan",
+        "trip_cost": 74015,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-08-01T04:02:54.751Z",
+        "updated_at": "2023-07-31T21:08:28.374Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "88469592-839a-47c1-b6ae-e457e0a2e649",
+        "vehicle_info": "SUV",
+        "trip_cost": 32714,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-07-31T13:03:05.116Z",
+        "updated_at": "2023-07-31T21:20:34.964Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b5445a10-74f8-4a41-b198-b5152533a4ab",
+        "vehicle_info": "Truck",
+        "trip_cost": 73969,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T15:54:19.242Z",
+        "updated_at": "2023-08-01T08:31:25.809Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d95771a-6e12-4ed1-93dc-267e5d01da4b",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 70466,
+        "reminder": "Battery Replacement",
+        "position": "Trunk",
+        "created_at": "2023-07-31T19:32:44.182Z",
+        "updated_at": "2023-08-01T02:36:31.984Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dd4a4fdb-9018-460d-abf5-a0f02ea5561c",
+        "vehicle_info": "Electric Scooter",
+        "trip_cost": 77393,
+        "reminder": "Air Filter Replacement",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T21:31:31.094Z",
+        "updated_at": "2023-07-31T11:57:01.291Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "f8cc35db-2c80-420c-8fe7-8778444f54e6",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-07-31T12:35:32.156Z",
+        "updated_at": "2023-07-31T15:48:34.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55c433c3-f0af-4fa9-ad42-3ed431d5b44d",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T14:37:33.911Z",
+        "updated_at": "2023-07-31T11:41:23.283Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b82cde4-8fa6-4c6c-b4b8-8aaabb1cbe6d",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-07-31T16:55:10.292Z",
+        "updated_at": "2023-07-31T13:09:55.169Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18aff625-a38b-49be-922b-6231dfc66145",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-08-01T08:33:26.512Z",
+        "updated_at": "2023-07-31T17:25:32.015Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcad654f-48f3-4996-a283-2591f80adc7d",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T16:21:58.247Z",
+        "updated_at": "2023-07-31T19:56:00.064Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "8ae8ce3a-a1b2-4423-867a-ecb933a051ff",
+        "created_at": "2023-08-01T07:19:40.882Z",
+        "updated_at": "2023-07-31T16:17:07.447Z",
+        "transporter_id": "d0d08c6d-685f-46bd-b37d-9c853adbe1bf",
+        "vehicle_id": "88469592-839a-47c1-b6ae-e457e0a2e649"
+      },
+      {
+        "id": "52df77f7-e7ee-457f-8bd5-1ba2b21a40bc",
+        "created_at": "2023-07-31T21:02:35.152Z",
+        "updated_at": "2023-07-31T17:10:09.018Z",
+        "transporter_id": "47e85625-1e3f-45cb-9224-b85031286f84",
+        "vehicle_id": "88469592-839a-47c1-b6ae-e457e0a2e649"
+      },
+      {
+        "id": "f2510960-c737-4b7b-bc34-4e96996e6a5b",
+        "created_at": "2023-07-31T20:10:21.333Z",
+        "updated_at": "2023-07-31T12:50:12.183Z",
+        "transporter_id": "42f76ebf-84fa-4ac1-aa1a-a3fc766d57c8",
+        "vehicle_id": "8d95771a-6e12-4ed1-93dc-267e5d01da4b"
+      },
+      {
+        "id": "fa29048a-d5ec-40e5-bb0d-994083aad699",
+        "created_at": "2023-07-31T23:06:03.318Z",
+        "updated_at": "2023-08-01T09:08:38.592Z",
+        "transporter_id": "f9889cbb-5c1e-452d-b9e0-77136a06b7c2",
+        "vehicle_id": "fb841471-9103-41cd-91d8-076bfb243bbd"
+      },
+      {
+        "id": "995237da-6d22-4525-b162-7cbef015b422",
+        "created_at": "2023-07-31T15:09:27.366Z",
+        "updated_at": "2023-08-01T04:42:37.665Z",
+        "transporter_id": "f9889cbb-5c1e-452d-b9e0-77136a06b7c2",
+        "vehicle_id": "b5445a10-74f8-4a41-b198-b5152533a4ab"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "9f511043-71f9-473e-beed-c23bf40d54a5",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T19:45:53.929Z",
+        "updated_at": "2023-08-01T04:24:19.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86bd6407-8374-4197-9c48-5374ff5d2fd4",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T23:03:33.287Z",
+        "updated_at": "2023-08-01T05:09:52.859Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d29fecc4-14b1-445e-8294-9edd19b9b2ca",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-07-31T20:24:46.422Z",
+        "updated_at": "2023-07-31T19:52:07.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d2cfb3b-71b6-4d57-8270-767bf419f853",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T04:48:33.200Z",
+        "updated_at": "2023-07-31T13:02:50.255Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aead30c-6f1a-4a85-88ea-ed5ab3acba46",
+        "service_info": "Local Courier",
+        "created_at": "2023-08-01T02:13:49.664Z",
+        "updated_at": "2023-07-31T17:16:01.657Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "b707b206-2dd4-41cb-bae4-86c9042a2164",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-07-31T18:17:30.601Z",
+        "updated_at": "2023-07-31T10:24:46.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15047936-e0a7-45e4-8b47-5ac0aa409da8",
+        "supply_info": "Electronics",
+        "created_at": "2023-07-31T13:16:55.911Z",
+        "updated_at": "2023-07-31T13:47:18.692Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dfc7831-d3c6-4976-981b-53bffdb0db55",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T10:47:02.319Z",
+        "updated_at": "2023-08-01T06:36:45.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9942dca3-1c89-4841-8700-908700e95235",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-08-01T07:59:08.077Z",
+        "updated_at": "2023-07-31T18:14:44.584Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa7ee93f-9836-4e1f-ad61-77d82e9945de",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-07-31T10:11:20.757Z",
+        "updated_at": "2023-08-01T08:08:50.433Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "23e5125c-264c-496e-9b9e-32418b906dcf",
+        "vehicle_info": "Sedan",
+        "trip_cost": 84408,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-07-31T21:13:07.571Z",
+        "updated_at": "2023-08-01T03:09:24.616Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dabdfc8f-b394-4cd3-9dae-9f93c38352a2",
+        "vehicle_info": "SUV",
+        "trip_cost": 31439,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-08-01T03:01:13.314Z",
+        "updated_at": "2023-08-01T05:58:42.342Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "37089114-cdbd-4a63-ad00-dfd1a28319ff",
+        "vehicle_info": "Truck",
+        "trip_cost": 95979,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T09:59:00.807Z",
+        "updated_at": "2023-08-01T07:30:33.092Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b4001036-ecbb-4b77-a50d-2e2e144e7aec",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 38460,
+        "reminder": "Battery Replacement",
+        "position": "Trunk",
+        "created_at": "2023-07-31T13:12:00.023Z",
+        "updated_at": "2023-07-31T22:45:14.520Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0c9f079f-9c5a-46f9-9916-41ca3ab571e4",
+        "vehicle_info": "Electric Scooter",
+        "trip_cost": 30677,
+        "reminder": "Air Filter Replacement",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T12:35:13.891Z",
+        "updated_at": "2023-07-31T21:03:17.031Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "a751bcf6-c783-4ba8-8ee2-cf63f5f24754",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-08-01T08:41:01.050Z",
+        "updated_at": "2023-08-01T03:27:03.738Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eec27ab4-e295-46bf-aae6-0cf402d17bbf",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T10:17:12.670Z",
+        "updated_at": "2023-07-31T15:24:08.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06aca0c4-69e0-4628-84e6-05ff3ffc42fa",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-08-01T09:12:39.687Z",
+        "updated_at": "2023-07-31T19:35:11.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "379cdeff-e946-456f-a16c-2c42a420bb0c",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-07-31T13:26:00.612Z",
+        "updated_at": "2023-07-31T11:10:45.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73005437-e79e-474b-b23c-7f8f711d8e0b",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T16:22:44.176Z",
+        "updated_at": "2023-07-31T21:45:36.770Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "0cdcbc13-6919-4bf4-b2cc-ddc1f724fd6a",
+        "created_at": "2023-08-01T01:08:58.780Z",
+        "updated_at": "2023-07-31T12:30:05.706Z",
+        "transporter_id": "6aead30c-6f1a-4a85-88ea-ed5ab3acba46",
+        "vehicle_id": "dabdfc8f-b394-4cd3-9dae-9f93c38352a2"
+      },
+      {
+        "id": "07fa1a6c-6df3-40b4-8684-909c03aa6c48",
+        "created_at": "2023-07-31T17:39:54.671Z",
+        "updated_at": "2023-08-01T06:04:47.163Z",
+        "transporter_id": "d29fecc4-14b1-445e-8294-9edd19b9b2ca",
+        "vehicle_id": "dabdfc8f-b394-4cd3-9dae-9f93c38352a2"
+      },
+      {
+        "id": "99984a5f-d03a-4603-8c9b-58b66e9ec283",
+        "created_at": "2023-07-31T19:07:59.004Z",
+        "updated_at": "2023-08-01T02:55:46.172Z",
+        "transporter_id": "d29fecc4-14b1-445e-8294-9edd19b9b2ca",
+        "vehicle_id": "dabdfc8f-b394-4cd3-9dae-9f93c38352a2"
+      },
+      {
+        "id": "4830bb24-19c3-4370-8cab-8771eb90e5e3",
+        "created_at": "2023-08-01T06:13:07.457Z",
+        "updated_at": "2023-08-01T08:07:13.923Z",
+        "transporter_id": "86bd6407-8374-4197-9c48-5374ff5d2fd4",
+        "vehicle_id": "dabdfc8f-b394-4cd3-9dae-9f93c38352a2"
+      },
+      {
+        "id": "f285a50a-b05b-4290-8b7a-ce9bb0a08337",
+        "created_at": "2023-08-01T06:50:03.124Z",
+        "updated_at": "2023-08-01T08:42:51.160Z",
+        "transporter_id": "86bd6407-8374-4197-9c48-5374ff5d2fd4",
+        "vehicle_id": "0c9f079f-9c5a-46f9-9916-41ca3ab571e4"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "01c5aa5f-a702-4af4-8590-2b8ce41c98d4",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T22:54:34.310Z",
+        "updated_at": "2023-07-31T19:28:21.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7240bd63-d496-45de-be4b-5583f2877485",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-08-01T00:43:46.458Z",
+        "updated_at": "2023-07-31T12:51:50.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d0e820a-c7bd-4b60-bb31-92ac68428251",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-07-31T10:57:52.023Z",
+        "updated_at": "2023-08-01T01:33:40.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30d56fca-856f-4d9d-b801-89661346bb46",
+        "service_info": "International Freight",
+        "created_at": "2023-07-31T11:15:13.679Z",
+        "updated_at": "2023-08-01T02:20:25.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cd32510-2bcb-4ba7-a1cb-10436fa0b90a",
+        "service_info": "Local Courier",
+        "created_at": "2023-08-01T05:28:43.128Z",
+        "updated_at": "2023-07-31T13:05:20.413Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "b5f2c3f5-e6c4-4662-bc58-1e00937eb5f3",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-08-01T08:56:07.331Z",
+        "updated_at": "2023-08-01T03:29:23.702Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "681899c1-fa16-4e2d-adf0-37003c7befe7",
+        "supply_info": "Electronics",
+        "created_at": "2023-08-01T05:34:05.753Z",
+        "updated_at": "2023-07-31T15:59:06.699Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad30bcf0-f72d-477d-a903-16061b3ae0be",
+        "supply_info": "Clothing",
+        "created_at": "2023-08-01T06:58:38.693Z",
+        "updated_at": "2023-08-01T00:31:52.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6138b7d-824d-4e22-a993-91a6b4e67fbe",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-07-31T13:14:22.003Z",
+        "updated_at": "2023-07-31T10:53:06.814Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b8535a4-2c05-4533-b703-cdc9b3b3718a",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-08-01T01:19:45.808Z",
+        "updated_at": "2023-08-01T05:00:48.265Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "ac5ce903-ca93-4ca7-b86a-5dccd1c47e6e",
+        "vehicle_info": "Sedan",
+        "trip_cost": 52060,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-08-01T06:57:51.287Z",
+        "updated_at": "2023-07-31T14:22:21.361Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bd6ca169-570a-408a-9e5c-eed72bde1a4c",
+        "vehicle_info": "SUV",
+        "trip_cost": 59212,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-08-01T01:48:12.812Z",
+        "updated_at": "2023-08-01T05:36:54.206Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9dd61799-ccf7-4247-b352-44657149ea8b",
+        "vehicle_info": "Truck",
+        "trip_cost": 54920,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-07-31T09:20:20.982Z",
+        "updated_at": "2023-08-01T03:13:50.694Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4392453f-e28e-4716-8281-3c6af129d49b",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 62476,
+        "reminder": "Air Filter Replacement",
+        "position": "Trunk",
+        "created_at": "2023-08-01T08:01:18.946Z",
+        "updated_at": "2023-08-01T04:01:42.894Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a81db6e0-19dc-4455-8b01-2310e4bbd5c7",
+        "vehicle_info": "Van",
+        "trip_cost": 26901,
+        "reminder": "Battery Check",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T11:33:39.062Z",
+        "updated_at": "2023-07-31T14:11:33.303Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "e6cb59bf-9763-472e-8f75-4c03c32e42c8",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-08-01T02:25:19.644Z",
+        "updated_at": "2023-07-31T23:17:29.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e00b2881-2316-4235-a658-42cf4d20a601",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T23:14:22.730Z",
+        "updated_at": "2023-07-31T15:57:42.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22e4d4d5-1b13-4177-a98a-e72a06ed7e85",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-07-31T15:44:09.460Z",
+        "updated_at": "2023-07-31T14:24:24.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "126576a3-ee58-4a63-8379-ffc41ff2a246",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-07-31T16:58:09.644Z",
+        "updated_at": "2023-07-31T10:56:49.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15f9f25a-7f5f-4989-9029-ed0e3d1c8b35",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-08-01T05:10:32.464Z",
+        "updated_at": "2023-07-31T12:16:00.890Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "9a85e9b5-44a0-480c-b9ec-d25ab5913dbd",
+        "created_at": "2023-07-31T19:30:42.711Z",
+        "updated_at": "2023-07-31T13:16:06.781Z",
+        "transporter_id": "8cd32510-2bcb-4ba7-a1cb-10436fa0b90a",
+        "vehicle_id": "bd6ca169-570a-408a-9e5c-eed72bde1a4c"
+      },
+      {
+        "id": "6f0a27e1-79ba-4972-962e-c00947634923",
+        "created_at": "2023-07-31T12:16:33.149Z",
+        "updated_at": "2023-07-31T23:07:11.411Z",
+        "transporter_id": "30d56fca-856f-4d9d-b801-89661346bb46",
+        "vehicle_id": "9dd61799-ccf7-4247-b352-44657149ea8b"
+      },
+      {
+        "id": "7a9e8b25-8684-46fd-aae5-34b7fb557171",
+        "created_at": "2023-07-31T12:59:39.191Z",
+        "updated_at": "2023-07-31T16:32:25.812Z",
+        "transporter_id": "9d0e820a-c7bd-4b60-bb31-92ac68428251",
+        "vehicle_id": "a81db6e0-19dc-4455-8b01-2310e4bbd5c7"
+      },
+      {
+        "id": "d03e6ebd-c3e0-44f5-8faf-f7b176844623",
+        "created_at": "2023-08-01T04:20:36.723Z",
+        "updated_at": "2023-08-01T00:49:15.517Z",
+        "transporter_id": "01c5aa5f-a702-4af4-8590-2b8ce41c98d4",
+        "vehicle_id": "ac5ce903-ca93-4ca7-b86a-5dccd1c47e6e"
+      },
+      {
+        "id": "bc1fd238-b9f9-445b-ae31-478d227b8554",
+        "created_at": "2023-08-01T05:59:48.534Z",
+        "updated_at": "2023-08-01T02:05:18.637Z",
+        "transporter_id": "7240bd63-d496-45de-be4b-5583f2877485",
+        "vehicle_id": "bd6ca169-570a-408a-9e5c-eed72bde1a4c"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "93fe676b-bab3-4aed-94b5-6a48d45c7a51",
+        "service_info": "Express Delivery",
+        "created_at": "2023-07-31T11:06:07.872Z",
+        "updated_at": "2023-07-31T19:02:17.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f08f84d0-916b-480b-bda4-0b32e46f1da5",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T09:52:09.458Z",
+        "updated_at": "2023-08-01T02:42:52.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21c440a5-4033-4331-b7f8-770a52fdc625",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-08-01T08:13:36.343Z",
+        "updated_at": "2023-07-31T22:20:43.841Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e1856c4-7140-4861-ae4f-b8f36e7b2981",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T09:09:30.840Z",
+        "updated_at": "2023-07-31T22:54:25.480Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bddc8244-b70b-4710-8fa5-33106df39e85",
+        "service_info": "Local Courier",
+        "created_at": "2023-07-31T23:19:00.647Z",
+        "updated_at": "2023-08-01T05:24:21.088Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "7c6928a4-0aaa-48ea-930a-faecd9f5fb36",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-08-01T06:57:50.161Z",
+        "updated_at": "2023-07-31T18:14:10.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f692e92-5bea-4424-bc08-442db03a95f1",
+        "supply_info": "Electronics",
+        "created_at": "2023-07-31T18:09:38.785Z",
+        "updated_at": "2023-07-31T18:03:22.800Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26810222-02be-429b-b2a9-4379623e14f0",
+        "supply_info": "Clothing",
+        "created_at": "2023-07-31T13:51:25.478Z",
+        "updated_at": "2023-07-31T16:25:45.526Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4d11b2-587f-47fe-bc12-93829d2ec7b6",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-08-01T06:16:48.484Z",
+        "updated_at": "2023-08-01T02:21:41.022Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3552f06-6c1a-438b-add3-c711bdbebe1b",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-08-01T02:10:14.179Z",
+        "updated_at": "2023-08-01T07:27:37.493Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "d888dd6d-61d8-4154-9a06-4ceb830bf56a",
+        "vehicle_info": "Sedan",
+        "trip_cost": 85826,
+        "reminder": "Oil Change",
+        "position": "Front",
+        "created_at": "2023-08-01T04:23:30.664Z",
+        "updated_at": "2023-08-01T03:09:21.658Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c4c604b7-daf5-49a1-9cf5-56ef2f0aa822",
+        "vehicle_info": "SUV",
+        "trip_cost": 1854,
+        "reminder": "Tire Rotation",
+        "position": "Rear",
+        "created_at": "2023-07-31T09:49:53.479Z",
+        "updated_at": "2023-07-31T15:54:09.115Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f03321f-8ceb-4cf1-9cec-b45512a14b80",
+        "vehicle_info": "Truck",
+        "trip_cost": 64999,
+        "reminder": "Brake Inspection",
+        "position": "Left",
+        "created_at": "2023-07-31T18:23:41.086Z",
+        "updated_at": "2023-07-31T16:18:04.448Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "19a64f60-449f-45f7-97f7-e7c53ddd456b",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 95419,
+        "reminder": "Battery Replacement",
+        "position": "Right",
+        "created_at": "2023-07-31T10:04:57.185Z",
+        "updated_at": "2023-07-31T09:52:41.484Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cb282270-facc-43a6-9709-6c3e7663d3f1",
+        "vehicle_info": "Electric Scooter",
+        "trip_cost": 43015,
+        "reminder": "Air Filter Replacement",
+        "position": "Center",
+        "created_at": "2023-08-01T06:19:13.177Z",
+        "updated_at": "2023-08-01T02:59:44.834Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "d94d41a8-7fd4-4250-9416-2811823d0dcb",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-07-31T18:08:02.062Z",
+        "updated_at": "2023-07-31T13:27:16.585Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a1d7940-9f50-4878-8428-28cc9ca270bc",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T17:53:14.276Z",
+        "updated_at": "2023-07-31T11:15:26.571Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a4b0399-5622-432d-9fdf-2a3f330e7622",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-08-01T04:43:18.559Z",
+        "updated_at": "2023-07-31T18:24:49.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6da948d-ed2e-4a44-bd78-c70d88451018",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-07-31T15:43:21.634Z",
+        "updated_at": "2023-08-01T08:36:27.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cf89de1-3422-4148-bd08-a59f7db73559",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T11:31:56.313Z",
+        "updated_at": "2023-08-01T08:44:27.426Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "54523703-b63c-4ac6-ba94-a1ea86458059",
+        "created_at": "2023-07-31T15:27:11.279Z",
+        "updated_at": "2023-08-01T05:30:25.918Z",
+        "transporter_id": "f08f84d0-916b-480b-bda4-0b32e46f1da5",
+        "vehicle_id": "cb282270-facc-43a6-9709-6c3e7663d3f1"
+      },
+      {
+        "id": "c4f1287a-b74c-44fe-b942-65267365128a",
+        "created_at": "2023-07-31T14:39:59.087Z",
+        "updated_at": "2023-07-31T15:33:12.403Z",
+        "transporter_id": "21c440a5-4033-4331-b7f8-770a52fdc625",
+        "vehicle_id": "9f03321f-8ceb-4cf1-9cec-b45512a14b80"
+      },
+      {
+        "id": "345641b5-7ee0-4936-a7ef-da4c9f5b7a45",
+        "created_at": "2023-08-01T00:51:30.301Z",
+        "updated_at": "2023-08-01T03:34:41.853Z",
+        "transporter_id": "f08f84d0-916b-480b-bda4-0b32e46f1da5",
+        "vehicle_id": "d888dd6d-61d8-4154-9a06-4ceb830bf56a"
+      },
+      {
+        "id": "5e13a3c8-2550-47b5-818f-6fbd7bf2aebb",
+        "created_at": "2023-08-01T08:37:29.862Z",
+        "updated_at": "2023-07-31T20:19:14.308Z",
+        "transporter_id": "4e1856c4-7140-4861-ae4f-b8f36e7b2981",
+        "vehicle_id": "cb282270-facc-43a6-9709-6c3e7663d3f1"
+      },
+      {
+        "id": "58789319-c35d-4535-ad27-63d068a1a012",
+        "created_at": "2023-07-31T22:23:00.983Z",
+        "updated_at": "2023-07-31T23:14:14.989Z",
+        "transporter_id": "93fe676b-bab3-4aed-94b5-6a48d45c7a51",
+        "vehicle_id": "c4c604b7-daf5-49a1-9cf5-56ef2f0aa822"
+      }
+    ]
+  },
+  {
+    "transporter": [
+      {
+        "id": "eb7426d7-bf82-40ae-aa68-1f6177d03dba",
+        "service_info": "Express Delivery",
+        "created_at": "2023-08-01T05:21:38.237Z",
+        "updated_at": "2023-07-31T23:37:50.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f572fda1-fe4a-4282-b1e7-129c0f3b935d",
+        "service_info": "Same Day Shipping",
+        "created_at": "2023-07-31T22:59:08.989Z",
+        "updated_at": "2023-07-31T23:37:30.550Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bce60159-8e22-46d8-8154-1feb69087241",
+        "service_info": "Overnight Transport",
+        "created_at": "2023-07-31T14:38:34.986Z",
+        "updated_at": "2023-07-31T11:58:05.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdf44f53-fc56-4bb2-a05c-b0593f825c75",
+        "service_info": "International Freight",
+        "created_at": "2023-08-01T03:38:25.844Z",
+        "updated_at": "2023-07-31T09:35:16.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3b39d6f-fd80-4690-be25-0e1bd02bd9f5",
+        "service_info": "Local Courier",
+        "created_at": "2023-07-31T09:31:04.679Z",
+        "updated_at": "2023-08-01T08:49:05.828Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "supplier": [
+      {
+        "id": "af0c6fa5-9d07-4a04-afa6-9b1d3a57dcfd",
+        "supply_info": "Fresh Produce",
+        "created_at": "2023-08-01T01:23:44.549Z",
+        "updated_at": "2023-08-01T01:31:08.095Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61dca8b9-ae89-41b6-91ab-c958c95b65f4",
+        "supply_info": "Electronics",
+        "created_at": "2023-08-01T08:26:15.782Z",
+        "updated_at": "2023-07-31T18:56:20.551Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3880217-c021-401b-b822-ef94e8fc14ab",
+        "supply_info": "Clothing",
+        "created_at": "2023-08-01T06:40:58.718Z",
+        "updated_at": "2023-07-31T10:16:40.927Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c77cea2f-63e6-484b-a569-3a00838a4ed0",
+        "supply_info": "Automotive Parts",
+        "created_at": "2023-07-31T15:27:08.542Z",
+        "updated_at": "2023-07-31T23:59:39.948Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1234e0a3-bb2f-4028-b272-598d456bd724",
+        "supply_info": "Home Appliances",
+        "created_at": "2023-08-01T01:17:30.709Z",
+        "updated_at": "2023-08-01T05:59:46.313Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "29ed8221-bff7-4ebc-aba9-33bb294cad05",
+        "vehicle_info": "Sedan",
+        "trip_cost": 6463,
+        "reminder": "Oil Change",
+        "position": "Driver Seat",
+        "created_at": "2023-07-31T23:51:04.201Z",
+        "updated_at": "2023-08-01T06:12:10.561Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50b25efe-8c0e-4081-b5d1-687d82fdf226",
+        "vehicle_info": "SUV",
+        "trip_cost": 9379,
+        "reminder": "Tire Rotation",
+        "position": "Passenger Seat",
+        "created_at": "2023-07-31T18:09:25.524Z",
+        "updated_at": "2023-08-01T05:43:42.268Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48fa782e-885c-45cc-8910-b7d31073115c",
+        "vehicle_info": "Truck",
+        "trip_cost": 14397,
+        "reminder": "Brake Inspection",
+        "position": "Backseat",
+        "created_at": "2023-08-01T07:10:46.817Z",
+        "updated_at": "2023-07-31T23:13:39.089Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3639db21-f61c-4607-80bd-749e7ee06009",
+        "vehicle_info": "Motorcycle",
+        "trip_cost": 78930,
+        "reminder": "Battery Replacement",
+        "position": "Trunk",
+        "created_at": "2023-08-01T09:00:18.642Z",
+        "updated_at": "2023-07-31T10:59:27.516Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5fac5f4c-622c-4ab2-8fa3-acff7faa4d1f",
+        "vehicle_info": "Electric Scooter",
+        "trip_cost": 69941,
+        "reminder": "Air Filter Replacement",
+        "position": "Roof Rack",
+        "created_at": "2023-07-31T15:53:18.034Z",
+        "updated_at": "2023-07-31T20:01:52.190Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "54b80288-63c8-4431-b730-e32d70ad2419",
+        "trip_info": "Delivery Route A",
+        "loading_slip": "LS-001",
+        "e_bill": "EB-001",
+        "created_at": "2023-07-31T22:40:15.867Z",
+        "updated_at": "2023-07-31T15:55:12.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aea5ec23-e66b-4317-9cfc-ddfd59915ed1",
+        "trip_info": "Pickup Route B",
+        "loading_slip": "LS-002",
+        "e_bill": "EB-002",
+        "created_at": "2023-07-31T15:49:01.642Z",
+        "updated_at": "2023-08-01T06:28:40.134Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a0eb6e-59b6-439b-8183-867cf561674e",
+        "trip_info": "Long Haul Route C",
+        "loading_slip": "LS-003",
+        "e_bill": "EB-003",
+        "created_at": "2023-08-01T07:41:27.984Z",
+        "updated_at": "2023-07-31T19:10:37.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b7c64b-8b5d-4bce-a099-565d97502221",
+        "trip_info": "Local Route D",
+        "loading_slip": "LS-004",
+        "e_bill": "EB-004",
+        "created_at": "2023-08-01T08:19:35.997Z",
+        "updated_at": "2023-07-31T09:47:30.762Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed158a00-7697-4efc-8f3c-1a35897a3ee7",
+        "trip_info": "Express Route E",
+        "loading_slip": "LS-005",
+        "e_bill": "EB-005",
+        "created_at": "2023-07-31T11:19:46.022Z",
+        "updated_at": "2023-07-31T18:28:59.639Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "7214b9f3-6465-47b5-a0a4-72b988ea7dcd",
+        "created_at": "2023-07-31T22:35:25.724Z",
+        "updated_at": "2023-07-31T20:38:10.430Z",
+        "transporter_id": "d3b39d6f-fd80-4690-be25-0e1bd02bd9f5",
+        "vehicle_id": "29ed8221-bff7-4ebc-aba9-33bb294cad05"
+      },
+      {
+        "id": "6c0498ce-bd15-467c-8b1a-a053fa0f891b",
+        "created_at": "2023-07-31T15:07:39.790Z",
+        "updated_at": "2023-08-01T08:56:15.068Z",
+        "transporter_id": "cdf44f53-fc56-4bb2-a05c-b0593f825c75",
+        "vehicle_id": "50b25efe-8c0e-4081-b5d1-687d82fdf226"
+      },
+      {
+        "id": "709fc07e-7a9f-4f76-9eaf-41a76434d6f7",
+        "created_at": "2023-07-31T18:22:53.118Z",
+        "updated_at": "2023-07-31T13:49:19.860Z",
+        "transporter_id": "cdf44f53-fc56-4bb2-a05c-b0593f825c75",
+        "vehicle_id": "5fac5f4c-622c-4ab2-8fa3-acff7faa4d1f"
+      },
+      {
+        "id": "bfa27bba-eedd-45a0-b66c-f85b489c829d",
+        "created_at": "2023-08-01T01:51:22.924Z",
+        "updated_at": "2023-07-31T17:20:55.856Z",
+        "transporter_id": "bce60159-8e22-46d8-8154-1feb69087241",
+        "vehicle_id": "50b25efe-8c0e-4081-b5d1-687d82fdf226"
+      },
+      {
+        "id": "e8f80a73-b91e-41bc-a300-02b770db4f86",
+        "created_at": "2023-07-31T13:33:03.638Z",
+        "updated_at": "2023-08-01T06:17:34.262Z",
+        "transporter_id": "f572fda1-fe4a-4282-b1e7-129c0f3b935d",
+        "vehicle_id": "29ed8221-bff7-4ebc-aba9-33bb294cad05"
+      }
+    ]
+  }
+]
